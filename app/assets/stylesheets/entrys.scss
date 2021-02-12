@@ -3,5 +3,26 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 header{
+    margin: 0px;
     background-color: red;
     }
+
+body{
+    margin: 0px;
+    background-color:darkred;
+}
+
+footer{
+    text-align:center;
+    background-color: red;
+}
+@media screen and (max-width:653px){
+}
+
+h1{
+    text-align:center
+}
+
+h2{
+    text-align:center
+}
