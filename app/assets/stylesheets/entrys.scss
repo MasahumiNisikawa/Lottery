@@ -8,6 +8,7 @@ header{
     }
 
 body{
+    text-align:center;
     margin: 0px;
     background-color:darkred;
 }
@@ -16,7 +17,9 @@ footer{
     text-align:center;
     background-color: red;
 }
-@media screen and (max-width:653px){
+@media screen and (max-width:960px){
+}
+@media screen and (min-width:480px) {    
 }
 
 h1{
