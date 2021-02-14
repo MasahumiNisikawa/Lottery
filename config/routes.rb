@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   
   namespace :admin do
     devise_for :operators
+    resources :staffs
    devise_scope :admin_operators do
      get 'login', to: 'sessions#new'
    end
