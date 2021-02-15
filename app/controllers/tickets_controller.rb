@@ -1,5 +1,7 @@
-class TicketsController < 
-  before_action :set_operator
+class Admin::TicketsController < Admin::AdminsController
+ before_action :set_operator
+
+  
 
   def create
     @ticket = @operator.tickets.build(ticket_params)
@@ -7,6 +9,7 @@ class TicketsController <
       redirect_to @operator
     end
   end
+
 
   def destroy
   end
