@@ -1,0 +1,10 @@
+<div class="container">
+    <h1>管理画面トップページ</h1>
+    
+    <h3><%= link_to "抽選券の作成", new_admin_ticket_path %></h3>
+    <h3> "抽選券の配信"</h3>
+
+    <h3><%= link_to "抽選過去一覧",admin_tickets_path %></h3>
+
+    <%= link_to "ログアウト", destroy_admin_operator_session_path, method: :delete %>
+</div>

@@ -1,18 +1,22 @@
-<header>
-  <h1>ようこそ 　#current_user.user_name さん</h1>
-</header>
+<div class="media">
+  <header>
+    <h1>ようこそ<%=current_user.user_name%>さん</h1>
+  </header>
 
 
 
-<body>
-  <h2>抽選参加の方はこちら</h2>
-  <h2>⇩⇩⇩⇩⇩</h2>
-  <h2>抽選券に参加</h2><br>
-  <h2>抽選結果の確認</h2>
-</body>
-<footer>
-   <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
-</footer>
+  <body>
+    <h3>抽選参加の方はこちら</h3>
+    <h2>⇩⇩⇩⇩⇩</h2>
+
+    <h3>抽選結果の確認</h3>
+
+    
+  </body>
+  <footer>
+    <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
+  </footer>
+</div>
 
 
 

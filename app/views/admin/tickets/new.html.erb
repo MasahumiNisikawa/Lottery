@@ -1,0 +1,15 @@
+<h1>抽選の新規作成<h1>
+
+
+<%= form_with url:admin_tickets_path,local: true do |f| %>
+ <label>抽選日の入力</label>
+ <div class="form-group">
+    <%= f.date_field :date, class: "form-control" %>
+ </div>
+ <div class="form-group">
+   <label>最大抽選参加人数</label>
+   <%= f.number_field :entrysnumber, class: "form-control" %>
+ </div>
+ <%= f.submit "作成" %>
+<% end %>
+<%= link_to '戻る', admin_tickets_path %>

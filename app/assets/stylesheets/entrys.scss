@@ -4,18 +4,17 @@
 
 header{
     margin: 0px;
-    background-color: red;
+    background-color: snow;
     }
 
 body{
     text-align:center;
-    margin: 0px;
-    background-color:darkred;
+    margin: 0px;   
 }
 
 footer{
-    text-align:center;
     background-color: red;
+    text-align:center;
 }
 @media screen and (max-width:960px){
 }
@@ -23,9 +22,17 @@ footer{
 }
 
 h1{
-    text-align:center
+    background-color: red;
+    text-align:center;
+    color: snow;
 }
 
 h2{
     text-align:center
+}
+
+h3{
+    color:snow;
+    background-color: darkred;
+    text-align:center;
 }
